@@ -677,7 +677,7 @@ function sendResultsToGoogleSheets(studentName, score) {
     formData.append('name', studentName);
     formData.append('score', score);
 
-    fetch('https://script.google.com/macros/s/AKfycbx6TF2-uyUc-JGUl4XDmLHWoehue6pYmT1iPkDiZENuWvSvox_w8_6-LtntejHcCSw/exec', { // Replace with your Web App URL
+    fetch('', { // Replace with your Web App URL
         method: 'POST',
         body: formData
     })
